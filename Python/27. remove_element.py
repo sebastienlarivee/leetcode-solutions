@@ -7,7 +7,8 @@ class Solution:
             else:
                 k += 1
         return k
-    
+
+
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         slow, fast = 0, 0
